@@ -39,44 +39,44 @@
 					<section id="two">
 						<h2>Projetos</h2>
 						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://bontorinbb.github.io/Rel-gio/" class="button" target="_blank">
-    <img src="images/fulls/01.jpg" alt="Visualizar projeto do relógio">
-</a>
+							<div class="image-button-container">
+  <a href="https://bontorinbb.github.io/Rel-gio/" class="custom-button" target="_blank">
+    <img src="images/fulls/01.jpg" alt="Meu projeto de relógio digital">
+  </a>
+</div>
+
+<style>
+  /* Estilos para o container */
+  .image-button-container {
+    display: inline-block;
+    position: relative;
+    max-width: 100%; /* Ajuste conforme necessário */
+  }
+
+  /* Estilos para a imagem */
+  .image-button-container img {
+    width: 300px; /* Tamanho fixo ou use max-width para ser responsivo */
+    height: auto; /* Mantém a proporção */
+    display: block;
+    border-radius: 8px; /* Opcional: bordas arredondadas */
+    transition: transform 0.3s ease; /* Efeito de hover suave */
+  }
+
+  /* Estilos para o botão (agora a própria imagem é o botão) */
+  .custom-button {
+    display: inline-block;
+    overflow: hidden; /* Garante que nada vaze do container */
+  }
+
+  /* Efeito ao passar o mouse */
+  .custom-button:hover img {
+    transform: scale(1.05); /* Aumenta levemente */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
+  }
+</style>
 								<h3>Relógio com Python</h3>
 								<p>Um relógio simples e funcional feito com PY.</p>
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-						</div>
-						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
-					</section>
-
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
