@@ -40,60 +40,61 @@
 				</ul>
 			</section>
 
-<!-- Projects Section -->
-<section id="two">
-    <h2>Projetos</h2>
-    
-    <!-- Project 1: Digital Clock -->
-    <article class="project">
-        <h3>Relógio Digital</h3>
-        <div class="project-container">
-            <a href="https://bontorinbb.github.io/relogio.html/" class="project-link" target="_blank" rel="noopener noreferrer">
-                <img src="images/thumbs/Untitled design (2).png" alt="Projeto de relógio digital" class="project-image" />
-            </a>
-        </div>
-        <p>Um relógio digital desenvolvido com HTML, CSS e JavaScript.</p>
-    </article>
-    
-    <!-- Project 2: Guessing Game -->
-    <article class="project">
-        <h3>Jogo de Adivinhação</h3>
-        <div class="project-container">
-            <a href="https://bontorinbb.github.io/RepositoioJunior/" class="project-link" target="_blank" rel="noopener noreferrer">
-                <img src="images/thumbs/Untitled design (4).png" alt="Projeto de jogo de adivinhação" class="project-image" />
-            </a>
-        </div>
-        <p>Um jogo desenvolvido em uma atividade do curso.</p>
-    </article>
-    
-    <!-- New Project: Dice Roller -->
-    <article class="project">
-        <h3>Rolamento de Dados</h3>
-        <div class="project-container">
-            <a href="https://bontorinbb.github.io/Dados/" class="project-link" target="_blank" rel="noopener noreferrer">
-                <img src="images/thumbs/Untitled design (3).png" alt="Projeto de rolamento de dados" class="project-image" />
-            </a>
-        </div>
-        <p>Simulador de rolamento de dados com animação e cálculo automático da soma.</p>
-    </article>
-</section>
+			<!-- Projects Section -->
+			<section id="two">
+				<h2>Projetos</h2>
+				
+				<!-- Project 1: Digital Clock -->
+				<article class="project">
+					<h3>Relógio Digital</h3>
+					<div class="project-container">
+						<a href="https://bontorinbb.github.io/relogio.html/" class="project-link" target="_blank" rel="noopener noreferrer">
+							<img src="images/thumbs/Untitled design (2).png" alt="Projeto de relógio digital" class="project-image" />
+						</a>
+					</div>
+					<p>Um relógio digital desenvolvido com HTML, CSS e JavaScript.</p>
+				</article>
+				
+				<!-- Project 2: Guessing Game -->
+				<article class="project">
+					<h3>Jogo de Adivinhação</h3>
+					<div class="project-container">
+						<a href="https://bontorinbb.github.io/RepositoioJunior/" class="project-link" target="_blank" rel="noopener noreferrer">
+							<img src="images/thumbs/Untitled design (4).png" alt="Projeto de jogo de adivinhação" class="project-image" />
+						</a>
+					</div>
+					<p>Um jogo desenvolvido em uma atividade do curso.</p>
+				</article>
+				
+				<!-- New Project: Dice Roller -->
+				<article class="project">
+					<h3>Rolamento de Dados</h3>
+					<div class="project-container">
+						<a href="https://bontorinbb.github.io/Dados/" class="project-link" target="_blank" rel="noopener noreferrer">
+							<img src="images/thumbs/Untitled design (3).png" alt="Projeto de rolamento de dados" class="project-image" />
+						</a>
+					</div>
+					<p>Simulador de rolamento de dados com animação e cálculo automático da soma.</p>
+				</article>
+				
+				<!-- Project 4: Money Talks -->
+				<article class="project">
+					<h3>Conversor de Moedas</h3>
+					<div class="project-container">
+						<a href="https://bontorinbb.github.io/conversor-moedas/" class="project-link" target="_blank">
+							<img src="images/thumbs/moneytalks.png" alt="Conversor de moedas com API" class="project-image">
+						</a>
+					</div>
+					<p>Conversor de moedas com cotações em tempo real usando API financeira.</p>
+					<div class="tech-tags">
+						<span class="tag">HTML5</span>
+						<span class="tag">CSS3</span>
+						<span class="tag">JavaScript</span>
+						<span class="tag">API</span>
+					</div>
+				</article>
+			</section>
 
-    <!-- Project 4: Money Talks -->
-<article class="project">
-    <h3>Conversor de Moedas</h3>
-    <div class="project-container">
-        <a href="https://bontorinbb.github.io/conversor-moedas/" class="project-link" target="_blank">
-            <img src="images/thumbs/moneytalks.png" alt="Conversor de moedas com API" class="project-image">
-        </a>
-    </div>
-    <p>Conversor de moedas com cotações em tempo real usando API financeira.</p>
-    <div class="tech-tags">
-        <span class="tag">HTML5</span>
-        <span class="tag">CSS3</span>
-        <span class="tag">JavaScript</span>
-        <span class="tag">API</span>
-    </div>
-</article>
 			<!-- Contact Section -->
 			<section id="three">
 				<h2>Informações de Contato</h2>
@@ -143,14 +144,70 @@
 		<script src="assets/js/main.js"></script>
 
 		<style>
-			/* Project Styles */
+			/* Cores principais - Tema Verde Musgo */
+			:root {
+				--verde-musgo: #4A6B3D;
+				--verde-claro: #6B8E4A;
+				--verde-vibrante: #5C9E4D;
+				--verde-escuro: #3A5A2D;
+				--bege: #F5F5DC;
+				--branco: #FFFFFF;
+				--preto: #222222;
+			}
+			
+			/* Estilos gerais */
+			body {
+				background-color: var(--bege);
+				color: var(--preto);
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				line-height: 1.6;
+			}
+			
+			#header {
+				background-color: var(--verde-musgo);
+				color: var(--branco);
+			}
+			
+			#header h1 {
+				color: var(--branco);
+			}
+			
+			/* Botões */
+			.button {
+				background-color: var(--verde-vibrante);
+				color: var(--branco);
+				border: none;
+				padding: 0.8rem 1.5rem;
+				border-radius: 4px;
+				transition: all 0.3s ease;
+				text-decoration: none;
+				display: inline-block;
+			}
+			
+			.button:hover {
+				background-color: var(--verde-escuro);
+				transform: translateY(-2px);
+			}
+			
+			/* Projetos */
 			.project {
 				margin-bottom: 3rem;
+				background-color: var(--branco);
+				padding: 1.5rem;
+				border-radius: 8px;
+				box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+				border-left: 4px solid var(--verde-vibrante);
+			}
+			
+			.project h3 {
+				color: var(--verde-musgo);
+				margin-bottom: 0.5rem;
 			}
 			
 			.project-container {
 				display: inline-block;
 				max-width: 100%;
+				margin-bottom: 1rem;
 			}
 			
 			.project-image {
@@ -158,22 +215,70 @@
 				max-width: 600px;
 				height: auto;
 				display: block;
-				border-radius: 16px;
+				border-radius: 8px;
 				transition: transform 0.3s ease, box-shadow 0.3s ease;
+				border: 1px solid #ddd;
 			}
 			
 			.project-link:hover .project-image {
-				transform: scale(1.03);
-				box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+				transform: scale(1.02);
+				box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 			}
 			
+			/* Tags de tecnologia */
+			.tech-tags {
+				margin-top: 0.5rem;
+			}
+			
+			.tag {
+				display: inline-block;
+				background-color: var(--verde-claro);
+				color: var(--branco);
+				padding: 0.2rem 0.6rem;
+				border-radius: 12px;
+				font-size: 0.8rem;
+				margin-right: 0.5rem;
+			}
+			
+			/* Seção de contato */
 			.contact-info {
 				margin-top: 2rem;
+				background-color: var(--branco);
+				padding: 1.5rem;
+				border-radius: 8px;
+				box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 			}
 			
+			.labeled-icons li {
+				margin-bottom: 1rem;
+			}
+			
+			.icon {
+				color: var(--verde-vibrante);
+			}
+			
+			/* Footer */
+			#footer {
+				background-color: var(--verde-escuro);
+				color: var(--branco);
+			}
+			
+			#footer a {
+				color: var(--branco);
+			}
+			
+			#footer .copyright {
+				color: rgba(255,255,255,0.7);
+			}
+			
+			/* Responsividade */
 			@media (max-width: 768px) {
 				.project-image {
 					max-width: 100%;
+				}
+				
+				.project {
+					padding: 1rem;
 				}
 			}
 		</style>
